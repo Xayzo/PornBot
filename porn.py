@@ -1,6 +1,6 @@
 import os
 from telethon import TelegramClient
-from telethon.sessions import MemorySession
+from telethon.sessions import MemorySession, StringSession
 from pyrogram import Client
 
 
