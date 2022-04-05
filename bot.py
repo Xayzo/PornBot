@@ -1,7 +1,11 @@
 from telethon import events, TelegramClient, Button
-import logging
-from telethon.tl.functions.users import GetFullUserRequest as us
+from telethon.tl.types import InputMessagesFilterVideo, InputMessagesFilterVoice
+from Dion import telethn as tbot
+from Dion import ubot2 as dbot
+
 import os
+import random
+import logging
 
 
 logging.basicConfig(level=logging.INFO)
@@ -48,7 +52,7 @@ async def asup(event):
 
             asupan
 
-            async for asupan in ubot2.iter_messages(
+            async for asupan in dbot.iter_messages(
 
             "@DionAsupanCache", filter=InputMessagesFilterVideo
 
@@ -58,7 +62,7 @@ async def asup(event):
 
         royzu = random.choice(asupannya)
 
-        dion = await ubot2.download_media(royzu)
+        dion = await dbot.download_media(royzu)
 
         await tbot.send_file(
 
@@ -88,7 +92,7 @@ async def desahh(event):
 
             desah
 
-            async for desah in ubot2.iter_messages(
+            async for desah in dbot.iter_messages(
 
             "@desahancewesangesange", filter=InputMessagesFilterVoice
 
@@ -98,7 +102,7 @@ async def desahh(event):
 
         ewe = random.choice(desahannya)
 
-        prik = await ubot2.download_media(ewe)
+        prik = await dbot.download_media(ewe)
 
         await tbot.send_file(
 
