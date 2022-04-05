@@ -7,8 +7,8 @@ from pathlib import Path
 from telethon import events
 
 from pymongo import MongoClient
-from dion import MONGO_DB_URI
-from dion import telethn
+from DionBot import MONGO_DB_URI
+from DionBot import telethn
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
@@ -146,7 +146,7 @@ def bot(**args):
     return decorator
 
 
-def dion(**args):
+def DionBot(**args):
     pattern = args.get("pattern", None)
     disable_edited = args.get("disable_edited", False)
     ignore_unsafe = args.get("ignore_unsafe", False)
