@@ -2,7 +2,7 @@
 
 
 ### Bot in Telegram 🤖
-<a href="https://t.me/ThePorno_Bot"><img src="https://img.shields.io/badge/Youtube%20-Downloader%20Bot-red.svg"></a>
+<a href="https://t.me/ThePorno_Bot"><img src="https://img.shields.io/badge/Porn%20-Bot-red.svg"></a>
 
 ##
 ### Support & Updates 📢
