@@ -1,0 +1,34 @@
+{
+	"name": "PornBot",
+	"description": "A TelegramBot to send messages secretly!",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/Xayzo/PornBot",
+	"env": {
+		"TOKEN": {
+			"description": "Your Telegram Bot Token ( @BotFather )",
+			"value": ""
+		},
+		"STRING_SESSION": {
+			"description": "Fill with telethon string session from @StringDionRobot.",
+			"value": ""
+		},
+		"API_HASH": {
+			"description": "Get from my.telegram.org or @ScrapDionRobot, used for telethon based modules.",
+			"value": ""
+		},
+		"API_ID": {
+			"description": "Get from my.telegram.org or @ScrapDionRobot, used for telethon based modules.",
+			"value": ""
+		}
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
