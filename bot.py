@@ -27,7 +27,7 @@ async def stsrt(event):
     await event.reply(
             "**Halo para manusia sangean 👋🏻\nKetik /help untuk mendapatkan bantuan.**",
             buttons=[
-                [Button.inline("Updates", "https://t.me/DionProjects")]
+                [Button.url("Updates", "https://t.me/DionProjects")]
                 ]
             )
 
@@ -35,9 +35,9 @@ async def stsrt(event):
 @bot.on(events.NewMessage(pattern="^[!?/]help$"))
 async def helper(event):
     await event.reply(
-            "**List command:\n\n• /bokep - Untuk mendapatkan video 4no\n•/asupan - Mendapatkan video asupan (bukan bokep 4no yah)\nn• /desah - Mendapatkan desahan random\n• /hentai - Mendapatkan foto 4no**",
+            "**List command:\n\n• /bokep - Untuk mendapatkan video 4no\n•/asupan - Mendapatkan video asupan (bukan bokep 4no yah)\n• /desah - Mendapatkan desahan random\n• /hentai - Mendapatkan foto 4no**",
             buttons=[
-                [Button.inline("Updates", "https://t.me/DionProjects")]
+                [Button.url("Updates", "https://t.me/DionProjects")]
                 ]
             )
 
@@ -82,7 +82,7 @@ async def asup(event):
         await teks.edit("Error karena dosamu besar.")
 
 
-@bot.on(events.NewMessage(pattern="^[!?/]asupan$"))
+@bot.on(events.NewMessage(pattern="^[!?/]desah$"))
 async def desahh(event):
 
     bgst = await event.reply("**Mencari Desahan...🔍**") 
