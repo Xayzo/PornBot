@@ -16,14 +16,3 @@ try:
 except BaseException:
     print("Userbot Error! Have you added a STRING_SESSION in deploying??")
     sys.exit(1)
-
-pbot = Client(
-    ":memory:",
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=TOKEN,
-    workers=min(32, os.cpu_count() + 4),
-)
-apps = []
-apps.append(pbot)
-loop = asyncio.get_event_loop()
