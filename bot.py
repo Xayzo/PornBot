@@ -43,6 +43,7 @@ async def helper(event):
 
 
 @bot.on(events.NewMessage(pattern="^[!?/]asupan$"))
+
 async def asup(event):
 
     teks = await event.reply("**Mencari Video Asupan...🔍**") 
@@ -69,7 +70,7 @@ async def asup(event):
 
             event.chat.id, 
 
-            caption="Nih Asupan by Dion Bot", 
+            caption="**Nih Asupan**", 
 
             file=dion
 
@@ -79,10 +80,11 @@ async def asup(event):
 
     except Exception:
 
-        await teks.edit("Error karena dosamu besar.")
+        await teks.edit("**Error karena dosamu besar.**")
 
 
 @bot.on(events.NewMessage(pattern="^[!?/]desah$"))
+
 async def desahh(event):
 
     bgst = await event.reply("**Mencari Desahan...🔍**") 
@@ -109,7 +111,7 @@ async def desahh(event):
 
             event.chat.id, 
 
-            caption="🤤🤤🤤", 
+            caption="**Nih desahan**", 
 
             file=prik
 
@@ -119,7 +121,7 @@ async def desahh(event):
 
     except Exception:
 
-        await bgst.edit("Error karena dosamu besar.")
+        await bgst.edit("**Error karena dosa mu besar.**")
 
 
 print("Succesfully Started Bot!")
