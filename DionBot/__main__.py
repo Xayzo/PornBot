@@ -1,17 +1,12 @@
 from telethon import events, TelegramClient, Button
-from telethon.tl.types import InputMessagesFilterVideo, InputMessagesFilterVoice
-from porn import telethn as tbot
-from porn import ubot2 as dbot
 
 import os
-import random
 import logging
 
 
 logging.basicConfig(level=logging.INFO)
 
 TOKEN = os.environ.get("TOKEN", None)
-STRING_SESSION = os.environ.get("STRING_SESSION", None)
 
 bot = TelegramClient(
         "dion",
