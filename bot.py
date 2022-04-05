@@ -121,5 +121,6 @@ async def desahh(event):
 
         await bgst.edit("Error karena dosamu besar.")
 
+
 print("Succesfully Started Bot!")
 bot.run_until_disconnected()
