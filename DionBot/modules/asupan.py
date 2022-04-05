@@ -6,7 +6,7 @@ from telethon.tl.types import InputMessagesFilterVideo, InputMessagesFilterVoice
 
 from DionBot.events import register
 
-from DionBot import telethn as tbot, ubot2                 
+from DionBot.porn import telethn as tbot, ubot2                 
 
 @register(pattern="^/asupan ?(.*)")
 
