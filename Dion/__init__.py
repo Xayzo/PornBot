@@ -9,6 +9,9 @@ from pyrogram import Client
     API_HASH = os.environ.get("API_HASH", None)
 
 
+    STRING_SESSION = Config.STRING_SESSION
+
+
 telethn = TelegramClient(MemorySession(), API_ID, API_HASH)
 
 ubot2 = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
