@@ -11,6 +11,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 TOKEN = os.environ.get("TOKEN", None)
+STRING_SESSION = os.environ.get("STRING_SESSION", None)
 
 bot = TelegramClient(
         "dion",
