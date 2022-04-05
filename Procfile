@@ -1,1 +1,1 @@
-worker: python3 -m Dion
+worker: bash run
