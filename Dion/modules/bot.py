@@ -1,7 +1,7 @@
 from telethon import events, TelegramClient, Button
 from telethon.tl.types import InputMessagesFilterVideo, InputMessagesFilterVoice
-from Dion import telethn as tbot
-from Dion import ubot2 as dbot
+from Dion.porn import telethn as tbot
+from Dion.porn import ubot2 as dbot
 
 import os
 import random
