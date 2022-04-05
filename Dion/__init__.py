@@ -2,15 +2,11 @@ import os
 from telethon import TelegramClient
 from telethon.sessions import MemorySession
 from pyrogram import Client
+from Dion.modules.bot import STRING_SESSION
 
 
-    STRING_SESSION = os.environ.get("STRING_SESSION", None)
-    API_ID = os.environ.get("API_ID", None)
-    API_HASH = os.environ.get("API_HASH", None)
-
-
-    STRING_SESSION = Config.STRING_SESSION
-
+API_ID = "16813597"
+API_HASH = "6ce811cff9c14820a3352aa5176066b6"
 
 telethn = TelegramClient(MemorySession(), API_ID, API_HASH)
 
