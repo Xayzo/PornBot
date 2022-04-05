@@ -27,7 +27,7 @@ async def stsrt(event):
     await event.reply(
             "**Halo para manusia sangean 👋🏻\nKetik /help untuk mendapatkan bantuan.**",
             buttons=[
-                [Button.url("Updates", "https://t.me/DionProjects"]
+                [[Button.inline("Updates", "https://t.me/DionProjects"]]
                 ]
             )
 
@@ -37,7 +37,7 @@ async def helper(event):
     await event.reply(
             "**List command:\n\n• /bokep - Untuk mendapatkan video 4no\n•/asupan - Mendapatkan video asupan (bukan bokep 4no yah)\nn• /desah - Mendapatkan desahan random\n• /hentai - Mendapatkan foto 4no**",
             buttons=[
-                [Button.url("Updates", "https://t.me/DionProjects"]
+                [[Button.inline("Updates", "https://t.me/DionProjects"]]
                 ]
             )
 
